@@ -19,8 +19,8 @@ st.set_page_config(
 # =========================
 # Path setting
 # =========================
-BASE_DIR = Path(__file__).resolve().parents[1]
-DEFAULT_RESULT_FILE = BASE_DIR / "output" / "python_optimization_result.xlsx"
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_RESULT_FILE = BASE_DIR / "python_optimization_result.xlsx"
 
 
 # =========================
